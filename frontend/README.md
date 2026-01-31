@@ -1,16 +1,60 @@
-# React + Vite
+# Ride Hailing Frontend (Uber Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React-based frontend** for an Uber-like ride hailing application.  
+The frontend supports **User and Captain roles**, real-time ride updates using **Socket.IO**, OTP-based ride start, and smooth animated panels inspired by real ride-hailing apps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- React 18
+- Vite
+- React Router DOM
+- Context API
+- Socket.IO Client
+- Axios
+- Tailwind CSS
+- GSAP (panel animations)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎥 Features (As shown in demo video)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👤 User Features
+- User signup & login
+- Pickup and destination search with autocomplete
+- Fare estimation (Auto / Car / Moto)
+- Ride confirmation
+- Waiting for captain assignment
+- Ride started screen
+- Live ride tracking
+- Payment screen
+
+### 🚖 Captain Features
+- Captain signup & login
+- Real-time incoming ride requests
+- Accept / reject rides
+- OTP-based ride start
+- Live tracking during ride
+- Finish ride flow
+
+---
+
+## 🔄 Application Flow
+
+### User Flow
+1. User login / signup
+2. Enter pickup & destination
+3. View fare estimates
+4. Confirm ride
+5. Wait for captain
+6. Ride starts after OTP verification
+7. Live tracking & payment
+
+### Captain Flow
+1. Captain login / signup
+2. Receive ride request in real time
+3. Accept ride
+4. Enter OTP to start ride
+5. Navigate to captain riding screen
+6. Finish ride
