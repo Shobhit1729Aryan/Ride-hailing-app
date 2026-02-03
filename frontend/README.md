@@ -1,3 +1,17 @@
+## ⚠️ Chrome Security Warning (Important)
+
+If the app does not work in **Google Chrome** and shows a security warning:
+
+### ✅ What worked:
+1. Click the **red warning / "Not Secure" icon** on the page
+2. Chrome will open **Site settings**
+3. Set security to **Allow / No security**
+4. Reload the page
+
+After this, Google Maps autocomplete and location suggestions work correctly.
+
+✅ The app works without any issues in **Edge, Firefox, and other browsers**.
+
 # Ride Hailing Frontend (Uber Clone)
 
 A modern **React-based frontend** for an Uber-like ride hailing application.  
